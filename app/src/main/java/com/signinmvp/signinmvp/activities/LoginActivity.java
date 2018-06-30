@@ -36,6 +36,7 @@ public class LoginActivity extends Activity implements View.OnClickListener,Logi
         String username = etUsername.getText().toString();
         String password = etPassword.getText().toString();
         loginPresenter.performLogin(username,password);
+        //login example in MVP
     }
 
     @Override
