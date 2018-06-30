@@ -4,3 +4,5 @@ public interface LoginPresenter {
 
     void performLogin(String username,String password);
 }
+
+//interface contains only Methods declarations 
